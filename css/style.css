@@ -1,0 +1,77 @@
+* {
+  font-family: Malgun Gothic;
+}
+
+body {
+  height: 1500px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://castle.womany.net/images/articles/16946/womany_star_first_1540439892-2145-0401.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  padding: 150px 0px;
+  color: rgba(128, 128, 128, 0.8);
+}
+
+h1 {
+  font-size: 43px;
+}
+
+hr {
+  max-width: 450px;
+  border: solid 2px #e8e3d0;
+}
+
+h4 {
+  color: rgba(128, 128, 128, 0.7);
+}
+
+section#section_ask {
+  background-color: #e8e3d0;
+}
+section#section_ask .col-sm-6.img {
+  background-image: url(https://static.juksy.com/files/articles/83633/5bc48f1c2211c.jpg?m=widen&i=600&q=75);
+  height: 400px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section#section_ask h2 {
+  margin-top: 60px;
+  padding: 60px 50px;
+  color: rgba(255, 215, 0, 0.8);
+  font-size: 35px;
+}
+section#section_ask section {
+  padding: 80px 0px;
+}
+
+section#section_about img {
+  width: 100%;
+  height: 400px;
+}
+section#section_about .img_wrap {
+  height: 150px;
+  overflow: hidden;
+}
+section#section_about .container {
+  margin: 20px 50px;
+  padding: 50px;
+}
+
+section#section_video {
+  width: 560px;
+  height: 315px;
+  padding: 20px;
+  margin: 30px;
+}
